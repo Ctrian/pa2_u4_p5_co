@@ -23,6 +23,8 @@ public class PersonaServiceImpl implements IPersonaService {
 	@Override
 	public void actualizar(Persona persona) {
 		// TODO Auto-generated method stub
+		//siempre busco al objeto persona
+		//me aseguro de que tenga pk
 		this.personaRepository.actualizar(persona);
 	}
 
